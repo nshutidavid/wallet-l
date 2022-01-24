@@ -1,0 +1,235 @@
+/*GLOBAL STYLES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "futura";
+    font-weight: 400;
+
+}
+ body,html{
+     height: 100vh;
+     width: 100vw;
+     background-color: #1D1B34;
+     overflow: hidden;
+ }
+
+ /*HEADER*/
+
+ .header{
+     width:100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 40px 30px;
+
+ }
+ .header h1{
+     font-size: 16px;
+     flex: 2;
+     text-align: center;
+ }
+ .menu-icon-wrapper{
+     background-color: #22223A;
+     border-radius: 500px;
+     height: 45px;
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .dots-wrapper div{
+    
+    border-radius: 500px;
+    height: 5px;
+    width: 5px;
+    margin: 4px 2px;
+
+}
+.light-dot{
+    background-color: #a1a0bc;
+
+}
+.dark-dot{
+    background-color: #55546d;
+
+}
+ .calendar-icon-wrapper{
+    background-color:#22223A;
+    border-radius: 500px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.calendar-icon-wrapper svg{
+    transform: scale(0.8);
+    opacity: 0.5;
+    
+    
+}
+/*balance wrapp*/
+ 
+.balance-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.balance-wrapper h3{
+    color: #55546d;
+    font-size: 11PX;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    
+}
+
+.balance-wrapper h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+   
+    
+}
+
+.balance-wrapper h1 span{
+    font-size: 17px;
+   
+}
+
+/*horizontal rule*/
+
+.hr{
+    margin: 35px 60px;
+    height: 1px;
+    background: #55546d;
+    opacity: 0.5;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#1D1B34), to(#1D1B34), color-stop(50%, #55546d));
+
+}
+/*activty*/
+.activity-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+}
+.activity-wrapper h3{
+    font-size: 17px;
+    
+
+    
+}
+.expense-btn{
+    display: flex;
+    border: 1px solid #55546d;
+    border-radius: 10px;
+    padding:5px 5px 2px 10px;
+
+}
+.expense-btn h4{
+    font-size: 13px;
+    margin-right:1px 2px 0 0;
+
+
+}
+.expense-btn svg{
+    transform: scale(0.6);
+
+}
+
+/*graph*/
+.graph-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.graph {
+    height: 195px;
+    align-self: center;
+}
+.months-wrapper {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding:0 55px ;
+     margin-top: 12px;
+}
+.months-wrapper  h3{
+    font-size: 10px;
+    color: #55546d;
+}
+#active-month {
+    color: #fff;
+}
+/*cards*/
+.cards-wrapper{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding:10px;
+    overflow: show;
+
+
+}
+.cards{
+    
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 9px 23px 18px 23px;
+    background: linear-gradient(45deg,#F95D78,#BC88C9,#5855fc);
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top span{
+   font-size: 12px;
+   opacity: 0.5;
+
+}
+.bottom {
+    font-size: 11px;
+
+    
+}
+
+
+.bottom h3{
+    margin-bottom: 8px;
+    
+    
+}
+.bottom span{
+    letter-spacing: 2px;
+    
+
+    
+}
+.top img{
+    height: 10px;
+    margin-left: -5px;
+}
+.card-two {
+    background: linear-gradient(135deg,#2D2038,#1E1D40,#5855fc);
+}
